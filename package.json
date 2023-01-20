@@ -12,13 +12,10 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.2",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@types/jest": "^29.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
-    "ethereum-waffle": "^3.4.4",
-    "ethers": "^5.7.2",
-    "hardhat": "^2.12.6",
-    "moment": "^2.29.4",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^22.0.0",
@@ -26,8 +23,16 @@
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-react": "^7.31.7",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.6",
     "husky": "^8.0.0",
+    "moment": "^2.29.4",
     "prettier": "2.7.1",
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.7"
   }
 }
